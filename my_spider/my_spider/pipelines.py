@@ -14,7 +14,7 @@ class MySpiderPipeline(object):
         return item
 
 class MysqlTwistedPipline(object):
-    def __init__(self, dbpoo=''):
+    def __init__(self, dbpoo):
         self.dbpool=dbpoo
 
     @classmethod
